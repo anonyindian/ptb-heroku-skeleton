@@ -1,4 +1,5 @@
-# [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot/) on [Heroku](https://www.heroku.com/)
+# [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot/) on [Heroku](https://www.heroku.com/deploy)
+
 
 So you want to deploy a python-telegram-bot on Heroku?
 
