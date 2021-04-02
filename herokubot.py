@@ -36,8 +36,8 @@ if __name__ == "__main__":
     dp.add_error_handler(error)
 
     # Start the webhook
-    updater.start_webhook(listen="https://veer6860.herokuapp.com",
-                          port=int(8443),
+    updater.start_webhook(listen="0.0.0.0",
+                          port=int(5432),
                           url_path=TOKEN)
     updater.bot.setWebhook("https://{}.herokuapp.com/{}".format(NAME, TOKEN))
     updater.idle()
